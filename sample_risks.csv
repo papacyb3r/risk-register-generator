@@ -1,0 +1,9 @@
+id,risk,likelihood,impact,owner,treatment
+R-01,Phishing leads to credential compromise,4,4,IT Security,Mitigate: awareness training and MFA
+R-02,Unpatched internet-facing server exploited,3,5,Infrastructure,Mitigate: patch SLA and monitoring
+R-03,Ransomware encrypts file servers,3,5,IT Security,Mitigate: offline backups and EDR
+R-04,Third-party vendor breach exposes customer data,3,4,Procurement,Mitigate: vendor assessments and contract clauses
+R-05,Lost unencrypted laptop,2,3,IT Operations,Mitigate: full-disk encryption
+R-06,Insider misuse of privileged access,2,4,Compliance,Mitigate: access reviews and logging
+R-07,Cloud storage bucket misconfigured as public,2,5,Cloud Team,Mitigate: policy-as-code checks
+R-08,Power failure at the data centre,1,3,Facilities,Accept: UPS and generator in place
